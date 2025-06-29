@@ -1,0 +1,4 @@
+Issues I was unable to fix and thus, no outputs were produced:
+1. System.Numerics.Vectors is installed but still is marked missing
+2. CalcLibrary (.NET 8.0) incompatible with Tests (.NET 4.7.2). I tried to change the Target framework versions in both of them simultaneously to either 4.7.2 or 8.0 but I was unable to fix it.
+
