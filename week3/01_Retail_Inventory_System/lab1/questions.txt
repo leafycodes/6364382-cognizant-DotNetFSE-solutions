@@ -1,0 +1,12 @@
+1. What is ORM?
+
+    ORM (Object-Relational Mapping) is a programming technique that:
+    - Maps C# classes to database tables
+    - Converts class properties to table columns
+    - Translates object relationships to foreign keys
+
+    Benefits:
+    - Increased productivity (less SQL to write)
+    - Better maintainability (changes in one place)
+    - Database abstraction (switch DBs easily)
+    - Type safety (compile-time checks)
