@@ -1,0 +1,52 @@
+RESTful Web Service:  REST (Representational State Transfer) is a way to design web services that focuses on simplicity and using existing web standards.
+
+Key points:
+- Stateless: Each request from client to server must contain all needed information (server doesn't remember past requests)
+- Uses standard HTTP methods (GET, POST, PUT, DELETE)
+- Resources are identified by URLs (like /products/1)
+- Can return data in JSON or XML format (JSON is more common now)
+
+Web API: A Web API is like a menu that tells other programs how to work with your application:
+
+- Uses HTTP protocol for communication
+- Follows REST principles when designed properly
+- Returns data in JSON or XML format
+- Each function in the API is called an "endpoint"
+
+Microservice: Microservices are a way to build applications as small, independent pieces:
+
+- Each microservice handles one specific job
+- Services can be developed and updated separately
+- They talk to each other using simple messages (usually over HTTP)
+- Each service has its own database
+
+Differences Between Web Service and Web API:
+- Web Services (SOAP) always use XML, while Web APIs usually use JSON
+- Web APIs are generally simpler and more flexible
+- Microservices are like small Web APIs that work together
+
+HTTP Request: When you call a Web API, you send a request with:
+- A method (GET, POST, PUT, DELETE)
+- A URL (like https://website.com/api/products)
+- Optional headers (extra information like authorization)
+- Optional body (data you're sending, like product details)
+
+HTTP Response: The API sends back:
+- A status code (200 = OK, 404 = Not Found, etc.)
+- Optional headers
+- Usually a body with the data you requested (in JSON format)
+
+HTTP Methods (Action Verbs):
+- GET - Retrieve information (like getting a product list)
+- POST - Create new information (like adding a new product)
+- PUT - Update existing information (full update)
+- DELETE - Remove information (like deleting a product)
+
+HTTP Status Codes:
+- 200 OK - Everything worked
+- 201 Created - New item was created successfully
+- 204 No Content - Action succeeded but no data to return
+- 400 Bad Request - Something was wrong with your request
+- 401 Unauthorized - You need to log in first
+- 404 Not Found - The item you requested doesn't exist
+- 500 Internal Server Error - Something went wrong on the server
