@@ -1,0 +1,1 @@
+Cross-Origin Resource Sharing (CORS) is a security mechanism that allows web applications to request resources from different domains. It prevents malicious websites from reading sensitive data from another site.
