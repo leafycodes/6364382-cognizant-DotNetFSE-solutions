@@ -1,0 +1,8 @@
+**/*.class
+/*.class
+.vscode/
+.idea/
+*.code-workspace
+tempCodeRunnerFile.java
+**/*.exe
+/*.exe
