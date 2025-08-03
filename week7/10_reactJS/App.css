@@ -1,0 +1,20 @@
+.textRed {
+  color: red;
+}
+
+.textGreen {
+  color: green;
+}
+
+.app {
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.office-details {
+  margin-top: 20px;
+  border: 1px solid #ddd;
+  padding: 15px;
+  border-radius: 5px;
+  max-width: 400px;
+}
